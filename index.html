@@ -12,7 +12,7 @@
 
 <body>
 
-    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3 fixed-top">
+    <nav id="navbar-example2" class="navbar bg-barra px-3 mb-3 fixed-top" data-bs-theme="dark">
         <a class="navbar-brand" href="#">Roger Zapata</a>
         <ul class="nav nav-pills">
             <li class="nav-item">
@@ -36,32 +36,48 @@
         </ul>
     </nav>
     <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
-        data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
-        <h4 id="scrollspyHeading1">First heading</h4>
+        data-bs-smooth-scroll="true" class="scrollspy-example bg-bodi p-3 rounded-2" tabindex="0" data-bs-theme="dark">
+        <!-- **********CLASS PARA MEDIA QUERIES********** -->
+        <h4 id="scrollspyHeading1" class="margencito">First heading</h4>
+        <div>
+            <div class="card text-bg-light border-info">
+                <img src="assets/img/img1.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+        <h4 id="scrollspyHeading2">Second heading</h4>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nisi qui perferendis iste iusto repellat ipsum at doloribus magnam dicta vero animi, rem neque impedit aliquid harum, repudiandae, sequi hic.
+        Provident quod, praesentium aut quam laboriosam nam minima doloribus eum porro, consectetur, maxime quasi voluptates cum necessitatibus unde ea? Iste culpa cupiditate rerum repellat iusto nostrum consequatur ullam! Quasi, ipsa!
+        <h4 id="scrollspyHeading3">Habilidades</h4>
         <div>
             <div class="card-group">
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                <div class="card border-info">
+                    <img src="assets/img/html.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">HTML</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.</p>
                         <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                <div class="card border-info">
+                    <img src="assets/img/css.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">CSS</h5>
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional
                             content.</p>
                         <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                <div class="card border-info">
+                    <img src="assets/img/js.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">JavaScript</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                             additional content. This card has even longer content than the first to show that equal
                             height action.</p>
@@ -70,20 +86,6 @@
                 </div>
             </div>
         </div>
-        <h4 id="scrollspyHeading2">Second heading</h4>
-        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto dicta, unde maxime assumenda ipsum
-            accusamus. Praesentium assumenda quam omnis quod eos distinctio, itaque nobis, maxime ex, harum saepe
-            pariatur accusamus.
-            Quasi eos quaerat illum veniam, totam quo fuga beatae, inventore similique rem quos expedita dolorem
-            consequuntur dolores blanditiis pariatur minima impedit explicabo quia doloremque commodi adipisci non!
-            Porro, quibusdam? Inventore?</div>
-        <h4 id="scrollspyHeading3">Third heading</h4>
-        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto dicta, unde maxime assumenda ipsum
-            accusamus. Praesentium assumenda quam omnis quod eos distinctio, itaque nobis, maxime ex, harum saepe
-            pariatur accusamus.
-            Quasi eos quaerat illum veniam, totam quo fuga beatae, inventore similique rem quos expedita dolorem
-            consequuntur dolores blanditiis pariatur minima impedit explicabo quia doloremque commodi adipisci non!
-            Porro, quibusdam? Inventore?</div>
         <h4 id="scrollspyHeading4">Fourth heading</h4>
         <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto dicta, unde maxime assumenda ipsum
             accusamus. Praesentium assumenda quam omnis quod eos distinctio, itaque nobis, maxime ex, harum saepe
@@ -94,7 +96,7 @@
         <h4 id="scrollspyHeading5">Fifth heading</h4>
         <div>
             <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <label for="exampleFormControlInput1" class="form-label border-info">Email address</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <div class="mb-3">

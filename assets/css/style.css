@@ -1,3 +1,23 @@
-#scrollspyHeading1 {
-    margin-top: 40px;
+/*  ********RESPONSIVIDAD-MEDIA QUERIES*******  */
+@media(max-width: 433px) {
+    .margencito {
+        margin-top: 80px;
+    }
+}
+@media(min-width: 434px) {
+    .margencito {
+        margin-top: 40px;
+    }
+}
+@media(max-width: 299px) {
+    .margencito {
+        margin-top: 120px;
+    }
+}
+/*  *********ESTILO********  */
+.bg-barra {
+    background-color: #021526;
+}
+.bg-bodi {
+    background-color: #31363F;
 }
